@@ -1,0 +1,109 @@
+# General ignores
+.DS_Store
+*.log
+*.tmp
+*.swp
+
+# Node.js dependencies (if applicable)
+node_modules/
+npm-debug.log
+
+# Python dependencies (if applicable)
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Java dependencies (if applicable)
+target/
+*.jar
+*.war
+*.ear
+
+# Golang dependencies (if applicable)
+vendor/
+
+# Ruby dependencies (if applicable)
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Docker-related files
+**/Dockerfile
+**/docker-compose.yml
+
+# Kubernetes-related files
+**/kubernetes/*.yaml
+**/kubernetes/*.yml
+
+# Ignore the Docker image and container directories
+**/docker/
+
+# Ignore Kubernetes deployment files
+**/deploy/
+
+# Ansible files (if applicable)
+*.retry
+
+# Terraform files (if applicable)
+*.tfstate
+*.tfstate.*
+
+# Ignore Helm chart files
+**/charts/
+**/templates/
+
+# Ignore Helm release directories
+**/releases/
+
+# Ignore Tiller configuration
+**/tiller/
+
+# IntelliJ IDEA
+*.iws
+.idea/
+.idea/*.xml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Miscellaneous
+*.env
+*.lock
+
+# Ignore sensitive files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secret.yaml
+
+# Ignore Logs and databases
+logs
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Ignore environment-specific files
+.envrc
+
+# Ignore vim swap files
+*.swp
+
+# Ignore macOS metadata files
+.DS_Store
